@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vcaster>
+
+<item item_url="http://localhost:8080/Music++/media/kgzw.flv" item_title="K歌之王">
+</item>
+<item item_url="http://localhost:8080/Music++/media/yxdcb.flv" item_title="隐形的翅膀">
+</item>
+<item item_url="http://localhost:8080/Music++/media/smile.flv" item_title="smile">
+</item>
+<item item_url="http://localhost:8080/Music++/media/jht.flv" item_title="菊花台">
+</item>
+<item item_url="http://localhost:8080/Music++/media/Poker Face.flv" item_title="Poker Face">
+</item>
+<item item_url="http://localhost:8080/Music++/media/wbng.flv" item_title="我不难过">
+</item>
+<item item_url="http://localhost:8080/Music++/media/fssx.flv" item_title="富士山下">
+</item>
+
+<item item_url="http://localhost:8080/Music++/media/Flying Without Wings.flv" item_title="Flying Without Wings">
+</item>
+<item item_url="http://localhost:8080/Music++/media/beat it.flv" item_title="beat it">
+</item>
+
+<item item_url="http://localhost:8080/Music++/media/hongdou.flv" item_title="红豆">
+</item>
+<!--<item item_url="http://www.transformersmovie.com/transformers_640.flv"  item_title="变形金刚预告片">
+</item>
+<item item_url="http://www.ruochi.com/product/vcastr/flv/江南.flv" item_title="江南MV" >
+</item>
+<item item_url="http://www.ruochi.com/product/vcastr/flv/晚安部落.flv"  item_title="魔兽世界-晚安部落">
+</item>
+--></vcaster>
+       

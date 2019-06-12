@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.action.extension" value="action"/>
+	<package name="struts" extends="struts-default"  namespace="/">
+	
+		<action name="loginAc" class="etc.music.action.LoginAction">
+			<result name="loginOK">/jsp/homepage.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+			<result name="logout">/jsp/homepage.jsp</result>
+			<result name="backToHome">/jsp/homepage.jsp</result>
+			<result name="about">/jsp/about.jsp</result>
+			<result name="gallery">/jsp/gallery.jsp</result>
+		</action>
+		
+		<action name="randAc" class="etc.music.action.RandomAction">
+			<result type="stream">
+				<param name="contentType">image/jpeg</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+		
+		<action name="regAc" class="etc.music.action.RegisterAction">
+	      <result name="register">/jsp/register.jsp</result>
+	      <result name="registerOK">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="shopCartAc" class="etc.music.action.ShopCartAction">
+			<result name="shopCart">/jsp/shopCart.jsp</result>
+			<result name="nullShopCart">/jsp/nullShopCart.jsp</result>
+			<result name="delete">/jsp/shopCart.jsp</result>
+			<result name="success" >/jsp/shopCart.jsp</result>
+			<result name="continueShop">/jsp/homepage.jsp</result>
+			<result name="showUserOrder">/jsp/checkOrder.jsp</result>
+		</action>
+		
+		<action name="userInfoAc" class="etc.music.action.ShowUserInfoAction">
+	    	<result name="userInfo">/jsp/userInfo.jsp</result>
+	    	<result name="suc">/jsp/makeOrderSuc.jsp</result>
+	    </action>
+		
+		<action name="albumAc" class="etc.music.action.ShowAlbumAction">
+	    	<result name="showAll">/jsp/showAllAlbums.jsp</result>
+	    	<result name="showAlbum">/jsp/showAlbum.jsp</result>
+	    	<result name="showArtistAlbums">/jsp/search.jsp</result>
+	    </action>
+	    
+	    <action name="searchAc" class="etc.music.action.SearchAction">
+	    	<result name="searchResult">/jsp/search.jsp</result>
+	    	<result name="search">/jsp/search.jsp</result>
+	    </action>
+	       	
+	    
+	    <action name="adminLoginAc" class="etc.music.action.AdminLoginAction">
+	    	<result name="adminLogin">/jsp/adminLogin.jsp</result>
+	    	<result name="adminLoginOK">/backstage.jsp</result>
+	    </action>
+	    
+	    <action name="adminSFAc" class="etc.music.action.AdminShowFrameAction">
+	    	<result name="showResult">/backstage.jsp</result>
+	    </action>
+	    
+	    <action name="adminManiAc" class="etc.music.action.AdminManipulationAction">
+	    	<result name="deleteAdmin">/index/deleteAdmin.jsp</result>
+	    	<result name="showAdmin">/index/showAdmin.jsp</result>
+	    	<result name="showUser">/index/showUser.jsp</result>
+	    	<result name="deleteUser">/index/deleteUser.jsp</result>
+	    	<result name="showOrder">/index/orderList.jsp</result>
+	    	<result name="deleteOrder">/index/deleteOrder.jsp</result>
+	    	<result name="deleteAlbum">/index/deleteAlbum.jsp</result>
+	    </action>
+	    
+	    <action name="favAc" class="etc.music.action.FavouriteAction">
+	    	<result name="showFav">/jsp/favourite.jsp</result>
+	    	<result name="deleteFav">/jsp/favourite.jsp</result>
+	    	<result name="nullFav">/jsp/nullFavourite.jsp</result>
+	    </action>
+	</package>
+</struts>

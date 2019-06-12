@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<endpoints version="2.0"
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+	<endpoint name="UserLoginPort"
+		implementation="etc.music.service.UserLoginDelegate"
+		url-pattern="/UserLoginPort">
+	</endpoint>
+	<endpoint name="ShopCartPort"
+		implementation="etc.music.service.ShopCartDelegate"
+		url-pattern="/ShopCartPort">
+	</endpoint>
+	<endpoint name="RegisterPort"
+		implementation="etc.music.service.RegisterDelegate"
+		url-pattern="/RegisterPort">
+	</endpoint>
+	<endpoint name="SearchPort"
+		implementation="etc.music.service.SearchDelegate"
+		url-pattern="/SearchPort">
+	</endpoint>
+	<endpoint name="ShowAlbumPort"
+		implementation="etc.music.service.ShowAlbumDelegate"
+		url-pattern="/ShowAlbumPort">
+	</endpoint>
+	<endpoint name="FavouritePort"
+		implementation="etc.music.service.FavouriteDelegate"
+		url-pattern="/FavouritePort">
+	</endpoint></endpoints>

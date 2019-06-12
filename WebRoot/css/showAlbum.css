@@ -1,0 +1,371 @@
+/*------------------------------------------------------------*
+**  Global
+**------------------------------------------------------------*/
+body, html { height: 100%; }
+body {
+	width: 100%;
+	margin-left: 5%;
+	margin-right:5%;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+    background-image: url("../images/black.jpg");
+	}
+	
+image {
+	border: 0;
+}
+
+/* text */
+p { font-size: 1.2em; line-height: 1.5em; margin: 0 0 20px; }
+acronym { cursor: help; }
+code { font-size: 1.5em !important; margin: 0 0 20px; padding: 10px; display: block; background-color: #111; color: #ffc; }
+blockquote { font-family: Georgia, "Times New Roman", Times, serif; margin: 0 0 20px; border: 1px solid #333; padding: 15px 15px 0 15px; display: block; background-color: #111; }
+blockquote p { margin-bottom: 15px; }
+
+/* links */
+a { text-decoration: none; color: #ffffff; }
+a:hover { text-decoration: underline; }
+
+/* images */
+/*img { border: 5px solid #333; margin: 0 10px 10px 0; }*/
+/*a img { border: 5px solid #2F1C07; }*/
+/*a:hover img { border-color: #50300C; }*/
+/*img.right { margin-left: 10px; }*/
+
+/* lists */
+ul, ol, dl, table, blockquote, code { font-size: 1.2em; }
+ul, ol, dl { margin: 0 0 30px; padding: 0 0 0 25px; }
+ul ul { font-size: 1em; margin: 0; }
+ol ol { font-size: 1em; margin: 0; }
+dl { padding: 0; }
+dl dt { font-weight: bold; }
+
+/*------------------------------------------------------------*
+**  Container
+**------------------------------------------------------------*/
+#container {
+	position:absolute;
+	top: 0;
+	margin: 0 auto;
+	width:80%;
+	text-align: left;
+	min-height: 100%;
+	left:10%;
+	right:10%;
+    height:800px;
+	top:0;
+	left:10%;
+	}
+	
+/*------------------------------------------------------------*
+**  Header
+**------------------------------------------------------------*/
+#flash2{
+	
+	position:absolute;
+	top:0;
+	right:-350px;
+	}
+#topest{
+background-image:url("../images/topest.jpg");
+height:220px;
+
+}
+
+#top {
+	width: 100%;
+	height: 20px;
+	background-color: #999999;
+}
+
+#top li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	border-left: 1px solid #b8bec1;
+	color: #eee;
+	float: left;
+}
+
+#top a {
+	font-size: 13px;
+}
+
+#top a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header { 
+	position: relative;
+	padding: 40px 0; 
+	}
+
+/* logo */
+/*#header h1 {*/
+/*	font-size: 3.2em;*/
+/*	font-weight: normal;*/
+/*	margin: 0;*/
+/*	}*/
+/*#header h1 a { color: #ffc; }*/
+/*#header h1 a:hover { text-decoration: none; }*/
+
+/* if you want to replace the logo with 
+an image, comment out the above logo code and
+uncomment the following */
+
+#header h1 {
+	background: url("../images/logo.png") no-repeat;
+	width: 600px;
+	height: 113px;
+	z-index: 10;
+	}	
+#header h1 a {
+	display: block;
+	height: 100%;
+	text-indent: -9999px;
+	outline: none;
+	}	
+
+/* Search */
+#search {
+	position: absolute;
+	top: 180px;
+	right: 0;
+	margin: 0;
+}
+
+/*------------------------------------------------------------*
+**  Navigation
+**------------------------------------------------------------*/ 
+#header ul {
+	list-style-type: none;
+	margin: 20px 0 0;
+	padding: 0;
+	width: 100%;
+	padding: 1px 0;
+	background-image:url("../images/black11.png");
+}
+
+#header ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+#header form {
+	top: -30px;
+	float: right;
+	right: -300px;
+	height: 50px;
+}
+
+#header ul li {
+	float: left;
+	margin: 0 0px;
+	font-size: 1.3em;
+	display: inline;
+	padding: 3px 20px 0px 20px;
+	
+	color: #eee;
+	float: left;
+}
+
+#header ul li form {
+	float: right;
+}
+
+#header ul li a {
+	display: block;
+	padding: 10px 10px;
+}
+
+#header ul li a.on {
+	text-decoration: none;
+	background-color: #000000;
+}
+
+#search{
+position:absolute;
+right:0;
+
+}
+/*------------------------------------------------------------*
+**  Content
+**------------------------------------------------------------*/
+
+
+#flash2{
+position:absolute;
+top:0;
+right:-350px;
+
+
+}
+#topest{
+background-image:url("../images/topest.jpg");
+height:220px;
+
+}
+
+#ablumname{
+	background-image:
+	padding:0px;
+	
+}
+
+#abluminfo{
+	
+   position:absolute;
+   top:400px;
+   width:90%;
+   margin-left:50px;
+	height:400px;
+
+	
+}
+
+
+#ablumpic{
+	float:left;
+	padding: 30px 10px 4px 34px;
+	overflow: hidden;
+	clear:right;
+	float: left;
+    width: 360px;
+    margin-bottom: 100px;
+    margin-top:-15px;
+	
+	
+}
+#summary  {
+	
+	 float: right;
+     position: relative;
+     width: 450px;
+     padding: 10px;
+     
+     color: #333;
+	list-style-type: none;
+	}
+	
+	
+#price{
+	float: right;
+width: 450px;
+padding: 10px 10px 20px;
+list-style-type: none;
+}
+
+#choose{
+	float: right;
+width: 468px;
+
+margin-right:10px;
+color: black;
+overflow: visible;
+}
+#albumdetail {
+    float: right;
+    overflow: hidden;
+    padding: 8px 0 0 8px;
+    width: 378px;
+  
+}
+
+
+
+#down{
+	position:absolute;
+	margin-top:0px;
+	top:900px;
+	left:10%;
+	right:10%;
+
+}
+
+#ablumsongs
+{
+	
+position:absolute;
+top:0px;
+right:-700px;
+
+}
+
+
+
+#ablumintro{
+	
+	position:absolute;
+	left:10%;
+    width:400px;
+    height:300px;
+   
+    
+  
+}
+#ablumintro.title{
+
+}
+#textintro
+{
+	position:relative;
+	width:400px;
+    height:300px;
+    left:00px;
+   
+ }
+ 
+ 
+ 
+ #more{
+ position:absolute;
+ top:1300px;
+ 
+ 
+ 
+ }
+ 
+
+/*------------------------------------------------------------*
+**  Footer
+**------------------------------------------------------------*/ 
+#footer {
+    position:absolute;
+	margin-top:0px;
+	text-align: center;
+	width:80%;
+	top:1600px;
+	left:10%;
+}
+
+#footer .flinks a,#footer .flinks span {
+		background-color:#999999;
+	margin: 0 10px;
+}
+#footer .flinks{
+background-color:#999999;
+width:1010px;
+}
+#footer .flinks span a {
+		background-color:#ffffff;
+	margin: 0;
+}
+
+#footer .copyright {
+		background-color:#999999;
+	margin: 0px 0;
+	font-family: arial;
+	width:1010px;
+}
+
+#footer .ilinks a {
+	background-color:#ffffff;
+	margin: 0 5px;
+}
